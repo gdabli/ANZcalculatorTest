@@ -117,12 +117,55 @@ public class BorrowingEstimate {
 		
 	}
 	
-	@And("^check your income goes default$")
-	public void check_yourincome_turn_default(){
+	@Then("^income turn default$")
+	public void yourincome_turn_default(){
 		WebElement element = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q2q1']")));
 		String textInsideBox = element.getAttribute("value");
 		Assert.assertEquals("0", textInsideBox);
 	}
+	
+	@Then("^other income turn default$")
+	public void otherincome_turn_default(){
+		WebElement element = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q2q2']")));
+		String textInsideBox = element.getAttribute("value");
+		Assert.assertEquals("0", textInsideBox);
+	}
+	
+	@Then("^living expenses turn default$")
+	public void livingexpenses_turn_default(){
+		WebElement element = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q3q1']")));
+		String textInsideBox = element.getAttribute("value");
+		Assert.assertEquals("0", textInsideBox);
+	}
+	
+	@Then("^current homeloan repayments turn default$")
+	public void homeloan_turn_default(){
+		WebElement element = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q3q2']")));
+		String textInsideBox = element.getAttribute("value");
+		Assert.assertEquals("0", textInsideBox);
+	}
+	
+	@Then("^otherloan repayments turn default$")
+	public void otherloan_turn_default(){
+		WebElement element = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q3q3']")));
+		String textInsideBox = element.getAttribute("value");
+		Assert.assertEquals("0", textInsideBox);
+	}
+	
+	@Then("^other commitments turn default$")
+	public void othercommitment_turn_default(){
+		WebElement element = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q3q4']")));
+		String textInsideBox = element.getAttribute("value");
+		Assert.assertEquals("0", textInsideBox);
+	}
+	
+	@Then("^cardlimit turn default$")
+	public void cardlimit_turn_default(){
+		WebElement element = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q3q5']")));
+		String textInsideBox = element.getAttribute("value");
+		Assert.assertEquals("0", textInsideBox);
+	}
+	
 	
 	
 	

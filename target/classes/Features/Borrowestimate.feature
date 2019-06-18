@@ -15,9 +15,13 @@ When other commitments
 When creditcard limit ten thousand
 And user clicks on estimate button
 Then user clicks on start over
-And check your income goes default
-
-
+Then income turn default
+Then other income turn default
+Then living expenses turn default
+Then current homeloan repayments turn default
+Then otherloan repayments turn default
+Then other commitments turn default
+Then cardlimit turn default
 
 
 
