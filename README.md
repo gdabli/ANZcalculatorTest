@@ -1,4 +1,4 @@
-# ANZcalculatorTest
+# Anzcalculator
 This project contains test cases for ANZ borrwing calculator. it has cucumber test with Behavior-Driver Development.
 ## how to run
 1. Clone this project to your local with command `git clone https://github.com/gdabli/ANZcalculatorTest.git`
