@@ -22,6 +22,9 @@ Then current homeloan repayments turn default
 Then otherloan repayments turn default
 Then other commitments turn default
 Then cardlimit turn default
+Then check default applicant type is Single
+Then check defalut property selected is Home
+Then check default dependent selected is zero
 
 
 

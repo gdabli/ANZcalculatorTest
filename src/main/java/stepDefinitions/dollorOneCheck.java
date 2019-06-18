@@ -5,8 +5,8 @@ import junit.framework.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
+
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -24,7 +24,7 @@ WebDriver driver;
 		driver.get("https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/");
 	}
 	
-	@When("^user enter dollor one for lining expenses$")
+	@When("^user enter dollor one for living expenses$")
 	public void select_living_expenses() throws Throwable{
 		driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q3q1']"))).sendKeys("1");
 		String textInsideBox = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q3q1']"))).getAttribute("value");

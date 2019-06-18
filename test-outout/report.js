@@ -114,144 +114,180 @@ formatter.step({
   "name": "cardlimit turn default",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 25,
+  "name": "check default applicant type is Single",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 26,
+  "name": "check defalut property selected is Home",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 27,
+  "name": "check default dependent selected is zero",
+  "keyword": "Then "
+});
 formatter.match({
   "location": "BorrowingEstimate.user_already_on_borrow_lender_page()"
 });
 formatter.result({
-  "duration": 12207484894,
+  "duration": 8909481933,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_user_type()"
 });
 formatter.result({
-  "duration": 408393602,
+  "duration": 725497365,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_dependents()"
 });
 formatter.result({
-  "duration": 181856394,
+  "duration": 122386195,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_property_type()"
 });
 formatter.result({
-  "duration": 268423288,
+  "duration": 250029679,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_income()"
 });
 formatter.result({
-  "duration": 301212233,
+  "duration": 250374928,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_other_income()"
 });
 formatter.result({
-  "duration": 282297915,
+  "duration": 376988803,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_living_expenses()"
 });
 formatter.result({
-  "duration": 238935614,
+  "duration": 326551888,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_homeloan_repayments()"
 });
 formatter.result({
-  "duration": 133473595,
+  "duration": 232500256,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_otherloan_repayments()"
 });
 formatter.result({
-  "duration": 184569473,
+  "duration": 239501110,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_commitments()"
 });
 formatter.result({
-  "duration": 167969696,
+  "duration": 222332624,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.select_credicardlimit()"
 });
 formatter.result({
-  "duration": 236494468,
+  "duration": 221572865,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.verify_estimate()"
 });
 formatter.result({
-  "duration": 2667895138,
+  "duration": 2467514701,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.clear_form()"
 });
 formatter.result({
-  "duration": 380426921,
+  "duration": 329683537,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.yourincome_turn_default()"
 });
 formatter.result({
-  "duration": 63331582,
+  "duration": 31007391,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.otherincome_turn_default()"
 });
 formatter.result({
-  "duration": 45888386,
+  "duration": 67680170,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.livingexpenses_turn_default()"
 });
 formatter.result({
-  "duration": 18885659,
+  "duration": 17579487,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.homeloan_turn_default()"
 });
 formatter.result({
-  "duration": 29611796,
+  "duration": 47578528,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.otherloan_turn_default()"
 });
 formatter.result({
-  "duration": 22120854,
+  "duration": 23906796,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.othercommitment_turn_default()"
 });
 formatter.result({
-  "duration": 16893961,
+  "duration": 15834060,
   "status": "passed"
 });
 formatter.match({
   "location": "BorrowingEstimate.cardlimit_turn_default()"
 });
 formatter.result({
-  "duration": 17090438,
+  "duration": 18237884,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BorrowingEstimate.check_applicant_type()"
+});
+formatter.result({
+  "duration": 36193038,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BorrowingEstimate.check_default_property_type()"
+});
+formatter.result({
+  "duration": 25455816,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BorrowingEstimate.check_default_dependent()"
+});
+formatter.result({
+  "duration": 101735945,
   "status": "passed"
 });
 formatter.uri("/Users/gauravdabli/Documents/workspace4/Anzcalculator/src/main/java/Features/dollorOneCheck.feature");
@@ -277,7 +313,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "user enter dollor one for lining expenses",
+  "name": "user enter dollor one for living expenses",
   "keyword": "When "
 });
 formatter.step({
@@ -319,63 +355,63 @@ formatter.match({
   "location": "dollorOneCheck.user_already_on_borrow_lender_page()"
 });
 formatter.result({
-  "duration": 10579685311,
+  "duration": 10192142358,
   "status": "passed"
 });
 formatter.match({
   "location": "dollorOneCheck.select_living_expenses()"
 });
 formatter.result({
-  "duration": 223992492,
+  "duration": 367353125,
   "status": "passed"
 });
 formatter.match({
   "location": "dollorOneCheck.select_income()"
 });
 formatter.result({
-  "duration": 443777008,
+  "duration": 324077695,
   "status": "passed"
 });
 formatter.match({
   "location": "dollorOneCheck.select_other_income()"
 });
 formatter.result({
-  "duration": 287342132,
+  "duration": 238320686,
   "status": "passed"
 });
 formatter.match({
   "location": "dollorOneCheck.select_homeloan_repayments()"
 });
 formatter.result({
-  "duration": 190286325,
+  "duration": 194594088,
   "status": "passed"
 });
 formatter.match({
   "location": "dollorOneCheck.select_otherloan_repayments()"
 });
 formatter.result({
-  "duration": 136148276,
+  "duration": 147893638,
   "status": "passed"
 });
 formatter.match({
   "location": "dollorOneCheck.select_commitments()"
 });
 formatter.result({
-  "duration": 414671625,
+  "duration": 245800132,
   "status": "passed"
 });
 formatter.match({
   "location": "dollorOneCheck.select_credicardlimit()"
 });
 formatter.result({
-  "duration": 190495283,
+  "duration": 236295240,
   "status": "passed"
 });
 formatter.match({
   "location": "dollorOneCheck.verify_estimate()"
 });
 formatter.result({
-  "duration": 349697034,
+  "duration": 453899378,
   "status": "passed"
 });
 });

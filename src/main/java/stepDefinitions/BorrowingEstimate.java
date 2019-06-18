@@ -1,5 +1,4 @@
 package stepDefinitions;
-import java.util.List;
 
 import junit.framework.Assert;
 
@@ -164,6 +163,26 @@ public class BorrowingEstimate {
 		WebElement element = driver.findElement((By.xpath("//div[@class='input__wrapper']/input[@aria-labelledby='q3q5']")));
 		String textInsideBox = element.getAttribute("value");
 		Assert.assertEquals("0", textInsideBox);
+	}
+	
+	@Then("^check default applicant type is Single$")
+	public void check_applicant_type(){
+		String element = driver.findElement(By.id("application_type_single")).getAttribute("checked");
+		Assert.assertEquals("true", element);
+	}
+	
+	@Then("^check defalut property selected is Home$")
+	public void check_default_property_type(){
+		String element = driver.findElement(By.id("borrow_type_home")).getAttribute("checked");
+		Assert.assertEquals("true", element);
+	}
+	
+	@Then("^check default dependent selected is zero$")
+	public void check_default_dependent(){
+		WebElement element = new Select(driver.findElement(By.xpath("//select[@title='Number of dependants']"))).getFirstSelectedOption();
+		String option = element.getText();
+		Assert.assertEquals("0", option);
+		
 	}
 	
 	
