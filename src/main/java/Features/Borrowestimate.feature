@@ -14,6 +14,10 @@ When other loan repayments
 When other commitments
 When creditcard limit ten thousand
 And user clicks on estimate button
+Then user clicks on start over
+And check your income goes default
+
+
 
 
 
