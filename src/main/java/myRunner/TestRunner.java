@@ -10,7 +10,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = {"/Users/gauravdabli/Documents/workspace4/Anzcalculator/src/main/java/Features/Borrowestimate.feature",
 				"/Users/gauravdabli/Documents/workspace4/Anzcalculator/src/main/java/Features/dollorOneCheck.feature"},
-		glue={"stepDefinitions"}
+		glue={"stepDefinitions"},
+		format= {"pretty","html:test-outout"}
 		)
 
 
