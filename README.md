@@ -14,6 +14,7 @@ This project contains test cases for ANZ borrwing calculator. it has cucumber te
 6. Expand test-output and right click on index.html. right click on it and select properties. copy the `Location` path from pop up window.
 ![alt text](https://raw.github.com/gdabli/Anzcalculator/master/images/image2.png)
 7. Open your favourite browser and run the path.
+![alt text](https://raw.github.com/gdabli/Anzcalculator/master/images/image3.png)
 8. WOW, now you should be able to get all the test results Feature wise.
 
 ## Suggestion on speed up the test for larger test
