@@ -20,4 +20,4 @@ This project contains test cases for ANZ borrwing calculator. it has cucumber te
 
 ## Improve reliability
 Sometime UI tests can failed unpreditably when automation attempts to hit a button which is not present on webpage. in those cases, we can use driver property to wait until element is not present in the page. for e.g. I have used `WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("borrow__result__text__amount")));`. apart from this, we can also use `thread.sleep()`. 
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("borrow__result__text__amount")));`. apart from this, we can also use `thread.sleep()` for certain cases
