@@ -14,10 +14,10 @@ This project contains test cases for ANZ borrwing calculator. it has cucumber te
 7. Open your favourite browser and run the path.
 8. WOW, now you should be able to get all the test results Feature wise.
 
-### Suggestion on speed up the test for larger test
+## Suggestion on speed up the test for larger test
 1. Use of parallelisation tools could also be helpful in bringing down execution time drastically. 
 2. Breaking down test cases feature wise is good stretegy. it helps to identify errors promptly.
 
-### Improve reliability
+## Improve reliability
 Sometime UI tests can failed unpreditably when automation attempts to hit a button which is not present on webpage. in those cases, we can use driver property to wait until element is not present in the page. for e.g. I have used `WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("borrow__result__text__amount")));`. apart from this, we can also use `thread.sleep()`. 
